@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+    width: 920px;
+    height: 1750px;
+}
+
+
+.top-element {
+    width: 920px;
+    height: 905px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    width: 920px;
+    height: 45px;
+}
+
+
+.header-link {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+
+hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 920px;
+    height: 160px;
+}
+
+
+h1 {
+    width: 475px;
+    font-size: 40px;
+
+}
+
+
+.material-icons {
+    margin-left: 5px;
+    color: white;
+    background-color: red;
+}
+
+
+subtitle {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.developer {
+    display: flex;
+    justify-content: center;
+    width: 920px;
+    height: 540px;
+    background-image: url(./image/web-developer.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}
+
+
+.space-separator {
+    width: 920px;
+    height: 0px;
+}
+
+
