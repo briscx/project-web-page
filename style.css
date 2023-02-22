@@ -1,16 +1,21 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin: auto;
-    padding: 2rem;
     width: 920px;
     height: 1750px;
+    background-color: lightgrey;
 }
 
 
 .top-element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 920px;
-    height: 905px;
+    height: 720px;
+    background-color: cadetblue;
 }
 
 
@@ -18,14 +23,14 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5px 0 5px 0;
+    margin: 0;
     width: 920px;
-    height: 45px;
+    height: 35px;
 }
 
 
 .header-link {
-    font-size: 16px;
+    font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: blue;
@@ -37,28 +42,22 @@ hero {
     justify-content: center;
     align-items: center;
     width: 920px;
-    height: 160px;
+    height: 140px;
 }
 
 
 h1 {
-    width: 475px;
+    width: 405px;
     font-size: 40px;
-
-}
-
-
-.material-icons {
-    margin-left: 5px;
-    color: white;
-    background-color: red;
+    margin: 0;
 }
 
 
 subtitle {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    width: 920px;
+    margin: 0;
 }
 
 
@@ -70,7 +69,6 @@ subtitle {
     background-image: url(./image/web-developer.png);
     background-color: transparent;
     background-repeat: no-repeat;
-    margin-top: 40px;
 }
 
 
@@ -80,3 +78,96 @@ subtitle {
 }
 
 
+.central-element {
+    display: flex;
+    width: 920px;
+    height: 430px;
+    background-color: beige;
+}
+
+
+aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    width: 180px;
+    height: 390px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.icon1 {
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    background-image: url(./image/github.png);
+    background-repeat: no-repeat;
+}
+
+
+h2 {
+    font-size: 26px;
+    margin: 10px;
+}
+
+
+h4 {
+    font-size: 10 px;
+    margin: 10px;
+}
+
+
+.information {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 20px;
+    margin: 15px 0 0 0;
+}
+
+
+p1 {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.fa-solid.fa-arrow-up-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    background-image: url(./image/up-right-arrow.png
+    );
+    background-color: transparent;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+
+.instruments {
+    width: 720px;
+    height: 430px;
+}
+
+
+.icon2 {
+    margin: 0 0 10px 0;
+    background-image: url(./image/vscode.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.last-element {
+    width: 920px;
+    height: 600px;
+    background-color: palegoldenrod;
+}
